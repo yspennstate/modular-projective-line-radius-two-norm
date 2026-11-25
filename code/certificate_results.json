@@ -1,0 +1,159 @@
+{
+ "ball_sizes": [
+  1,
+  4,
+  8,
+  14,
+  22,
+  34,
+  50
+ ],
+ "distinct_pairs": 1225,
+ "singular_pairs": 99,
+ "max_abs_delta": 100,
+ "pairs_with_repetition": 1275,
+ "singular_with_repetition": 149,
+ "distinct_pairs_without_identity": 1176,
+ "singular_pairs_without_identity": 50,
+ "candidate_primes": [
+  2,
+  3,
+  5,
+  7,
+  11,
+  13,
+  37,
+  41,
+  61,
+  73,
+  97
+ ],
+ "E": [
+  2,
+  3,
+  5,
+  7,
+  11,
+  13,
+  37,
+  41,
+  61,
+  73,
+  97
+ ],
+ "scalar_reduction_primes": [
+  2,
+  3
+ ],
+ "n_classes": 22,
+ "model_dims": [
+  4,
+  4,
+  4,
+  5,
+  6,
+  6,
+  7,
+  7,
+  7,
+  7,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8
+ ],
+ "max_charpoly": [
+  1,
+  -28,
+  320,
+  -1942,
+  6784,
+  -13740,
+  15285,
+  -8000,
+  1200
+ ],
+ "smallest_competitor_minor_83I_10G": "33",
+ "alpha_bracket": "8.3572446843 < alpha < 8.3572446844; 2.890889946779 < sqrt(alpha) < 2.890889946780",
+ "E_primes": {
+  "2": {
+   "full_ball_centres": [
+    0,
+    1,
+    2
+   ]
+  },
+  "3": {
+   "full_ball_centres": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "5": {
+   "full_ball_centres": [
+    1,
+    4
+   ]
+  },
+  "7": {
+   "full_ball_centres": [
+    1
+   ]
+  },
+  "11": {
+   "centres": [
+    1
+   ]
+  },
+  "13": {
+   "centres": [
+    2,
+    7
+   ]
+  },
+  "37": {
+   "centres": [
+    1
+   ]
+  },
+  "41": {
+   "centres": [
+    1
+   ]
+  },
+  "61": {
+   "centres": [
+    1
+   ]
+  },
+  "73": {
+   "centres": [
+    1
+   ]
+  },
+  "97": {
+   "centres": [
+    1
+   ]
+  }
+ },
+ "link_test_distinct_models_seen": {
+  "17": 7,
+  "19": 9,
+  "23": 5,
+  "101": 9,
+  "257": 7,
+  "1009": 13
+ }
+}
