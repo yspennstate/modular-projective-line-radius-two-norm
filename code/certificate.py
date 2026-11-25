@@ -325,7 +325,7 @@ def main():
                 assert x == 1, (p, x)
         link[p] = len(seen)
     res["link_test_distinct_models_seen"] = link
-    with open("certificate_results.json", "w") as fh:
+    with open("certificate_results.json", "w", newline=chr(10)) as fh:
         json.dump(res, fh, indent=1, default=str)
         fh.write(chr(10))
     print("\nALL CHECKS PASS")
